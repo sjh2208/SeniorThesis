@@ -16,3 +16,21 @@ Recent advances in natural language processing (NLP) and work on large language 
 This brings me to the major questions of this investigation: can we use LLMs to model the differences in surprise and negative sentiment that humans subjectively attribute to misinformation? Can this model then make accurate classifications about whether or not unseen statements contain misinformation, as labeled by human raters? I hypothesize, based on the previous work highlighted above, that a classification model based on surprise and negative sentiment will indeed be able to accurately (at above-chance levels) distinguish between statements containing misinformation and those that do not. This result would not only indicate a short-term potential aid to online content moderators, but also point to a larger cognitive consequence—that what we find subjectively surprising in natural language statements can be accurately modeled as a prediction error, and this error can be reliably calculated by LLMs.
 
 Such a result would prove both novel and significant for several reasons. As was also revealed in the leaked Facebook internal documents, human content moderators at large social media companies are struggling to stem the growing tide of misinformation on their platforms (Seetharaman et al., 2021). This highlights the need for alternative methods of flagging posts that potentially contain misinformation. Many studies (see Khan et al., 2021; Islam et al., 2020; Wang, 2017 for reviews) demonstrate that a variety of machine learning models perform well above chance at identifying statements that contain misinformation, but the models used are limited in explicability; every tested model is essentially a black box, lacking clear justifications for each classification (but see Shu et al., 2019). This investigation attempts to leverage the power and speed of algorithmic classification while maintaining explicability: instead of the traditional machine-learning strategy, the classifications will be done based on the pre-defined, cognitively-informed features of negative sentiment and surprise as measured by cross-entropy.
+
+#### Methods
+##### Sentiment
+##### Cross-Entropy
+##### Dataset
+##### Models
+###### Sentiment Classifier
+###### GPT-2
+###### Pre-trained
+###### Fine-tuned
+###### Combined Bayesian Classifier
+#### Results
+##### Cross-Entropy Distribution
+##### Sentiment Distribution
+##### Joint Distribution
+##### Prediction/Classification
+#### Discussion, Limitations, and Conclusion
+
