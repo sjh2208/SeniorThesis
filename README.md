@@ -34,3 +34,27 @@ Such a result would prove both novel and significant for several reasons. As was
 ##### Prediction/Classification
 #### Discussion, Limitations, and Conclusion
 
+#### References
+Islam, M. R., Liu, S., Wang, Z., & Xu, G. (2020). Deep learning for misinformation detection on online social networks: a survey and new perspectives. Social Network Analysis and Mining, 10(82).
+
+Khan, J. Y., Khondaker, T. I., Afroz, S., Uddin, G., & Iqbal, A. (2021). A benchmark study of machine learning models for online fake news detection. Machine Learning with Applications, 4.
+
+Kozyreva, A., Lewandowsky, S., & Hertwig, R. (2020). Citizens versus the internet: confronting digital challenges with cognitive tools. Psychol. Sci. Public Interest, 21, 103-156.
+
+Krause-Jackson, M. (2022, March 14). Putin’s State Media News Is Interrupted: ‘They’re Lying to You’. Bloomberg. https://www.bloomberg.com/news/articles/2022-03-14/putin-s-state-media-news-is-interrupted-they-re-lying-to-you
+
+Pennycook, G. & Rand, D. (2021). The Psychology of Fake News. TiCS, 25(5), 388-402.
+
+Quandt, T. (2018). Dark Participation. Media Commun., 6, 36-48.
+
+Seetharaman, D., Horwitz, J., & Scheck, J. (2021, Oct. 17). Facebook Says AI Will Clean Up the Platform. Its Own Engineers Have Doubts. The Wall Street Journal. https://www.wsj.com/articles/facebook-ai-enforce-rules-engineers-doubtful-artificial-intelligence-11634338184?mod=article_inline
+
+Schechner, S., Howritz, J., & Glazer, E. (2021, Sept. 17). How Facebook Hobbled Mark Zuckerberg’s Bid to Get America Vaccinated. The Wall Street Journal. https://www.wsj.com/articles/facebook-mark-zuckerberg-vaccinated-11631880296?mod=article_inline
+
+Shu, K., Cui, L., Wang, S., Lee, D., & Liu, H. (2019). dEFEND: Explainable Fake News Detection. In The 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, pp. 395-405.
+
+Stern, J. (2022, April 7). Obama: I Underestimated the Threat of Disinformation. The Atlantic. https://www.theatlantic.com/ideas/archive/2022/04/barack-obama-interview-disinformation-ukraine/629496/
+
+Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151. 
+
+Wang, W. Y. (2017). “Liar, Liar Pants on Fire”: A New Benchmark Dataset for Fake News Detection. In Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pp. 422–426.
