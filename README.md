@@ -38,6 +38,7 @@ Such a result would prove both novel and significant for several reasons. As was
 ![2d plot](/figures/fig6.png?raw=true "2d Distribution of Sentiment and CE by News Story Type")
 
 *Color-filled region represents the distribution of fake news stories, the empty region for true news stories*
+
 ![3d plot](/figures/fig6_1.png?raw=true "3d Distribution of Sentiment and CE by News Story Type")
 ##### Prediction/Classification
 #### Discussion, Limitations, and Conclusion
