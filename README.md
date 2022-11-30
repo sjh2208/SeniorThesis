@@ -29,6 +29,7 @@ Such a result would prove both novel and significant for several reasons. As was
 ###### Combined Bayesian Classifier
 #### Results
 ##### Cross-Entropy Distribution
+!(https://github.com/sjh2208/SeniorThesis/blob/main/figures/fig2.png?raw=true)
 ##### Sentiment Distribution
 ##### Joint Distribution
 ##### Prediction/Classification
