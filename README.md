@@ -3,7 +3,7 @@
 ## Samuel Hutchinson, Senior Thesis Project in Cognitive Science, Advisor: Dr. Christopher Baldassano
 
 ![poster](/poster_1.png "Thesis Poster")
-#Poster version that I presented at the Columbia Undergraduate Computer and Data Science Research Fair#
+##Poster version that I presented at the Columbia Undergraduate Computer and Data Science Research Fair##
 
 ### Working drafts of the text for my senior thesis project on cross-entropy variation in misinformation
 
