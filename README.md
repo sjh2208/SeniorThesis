@@ -29,7 +29,8 @@ Such a result would prove both novel and significant for several reasons. As was
 ###### Combined Bayesian Classifier
 #### Results
 ##### Cross-Entropy Distribution
-![violin plots](/figures/fig2.png?raw=true "Distribution of CE by News Story Type and Model")
+![violin plot](/figures/fig2.png?raw=true "Distribution of CE by News Story Type and Model")
+![density plot](/figures/fig2_1.png?raw=true "Distribution of CE by News Story Type and Model")
 ##### Sentiment Distribution
 ##### Joint Distribution
 ##### Prediction/Classification
