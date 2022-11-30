@@ -5,7 +5,7 @@
 ![poster](/poster_1.png "Thesis Poster")
 *Poster version that I presented at the Columbia Undergraduate Computer and Data Science Research Fair*
 
-### Working drafts of the text for my senior thesis project on cross-entropy variation in misinformation
+### Working draft of the text below:
 
 #### Introduction, Background, Relevance
 “They’re lying to you,” announced the poster-board sign interrupting coverage from First Channel, a Kremlin-backed outlet and one of the main sources of news for Russian citizens. The protestor—who had briefly appeared onscreen to suggest that the Russian state media was producing disinformation regarding the war in Ukraine—was arrested within seconds (Krause-Jackson, 2022). A few weeks later, from April 6th to April 8th, 2022, The University of Chicago’s Institute of Politics and The Atlantic hosted a conference entitled “Disinformation and the Erosion of Democracy,” featuring prominent American politicians and legal scholars bemoaning the titular threat that they argue is spiraling into global catastrophe (Stern, 2022). With such high-profile examples in the media, the saliency and immediacy of mis- and disinformation spread online has quickly entered the international consciousness. 
