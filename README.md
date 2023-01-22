@@ -103,11 +103,13 @@ After calculating these values for all of the training examples, I then created 
 Taking sentiment distribution as an example, the following conditional probabilities for a particular sentiment score S can be read from the density functions for true stories (T) and false stories (F):
 
 $$P(S|T)$$
+
 $$P(S|F)$$
 
 Which can then be flipped (via Bayes rule) to the following:
 
 $$P(T|S) \propto P(S|T) \cdot P(T)$$
+
 $$P(F|S) \propto P(S|F) \cdot P(F)$$
 
 These conditional probabilities, then, appear as a prediction of whether or not a given story is true or false based on the evidence from the story’s sentiment value and prior values of the rate at which true and false stories appear.
@@ -115,6 +117,7 @@ These conditional probabilities, then, appear as a prediction of whether or not 
 However, as discussed in the Background section above, misinformation appears to not only vary on its emotional valence, but also how surprising it is to readers. I am accounting for this ‘surprising’ nature of misinformation with the average cross-entropy (CE) of the story, yielding the following joint conditional probabilities:
 
 $$P(T|S, CE) \propto P(S, CE|T) \cdot P(T)$$
+
 $$P(F|S, CE) \propto P(S, CE|F) \cdot P(F)$$
 
 I then used these conditional probabilities to predict the category of unseen stories during the testing phase.
