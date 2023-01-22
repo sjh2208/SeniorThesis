@@ -71,6 +71,7 @@ Another key aspect in which misinformation infiltrates the information ecosystem
 A good place to start with a data-driven exploration of misinformation is with an appropriate dataset. I have chosen the ISOT Fake News Dataset compiled by Ahmed et al. (2018) due to its large number of news stories (44,898), focus on political stories, clear division into true and false news stories (with the true news stories all published by Reuters and the false news stories from sources rated untrustworthy by Politifact), and balanced coverage of news stories from both within the United States and around the world as well as from both left- and right-leaning sources. See Figure 1 below for a detailed description of how I utilized the dataset in the various stages of this experiment, to be elaborated upon in the rest of this section:
 
 ![dataset](/figures/dataset.png?raw=true "Division of Dataset")
+
 *Fig. 1: Clockwise from top: LM (True): these stories were used to fine-tune the GPT-2 model used in calculating cross-entropy; Train (Fake): these stories were used to build distributions of cross-entropy and emotional content for false news stories; Train (True): same as previous, but distributions for true news stories; Test (Fake): these stories are sampled from to test the conditional Bayesian predictions from the generated distributions; Test (True): same as previous; Unused: these are fake stories that would otherwise bias the testing or training data, there was a large excess of fake stories due to the LM True subset already being used.*
 
 #### GPT-2
@@ -83,6 +84,7 @@ $$H(p, q) = -\sum_{i=0}^{n} p(x_i) \cdot \log q(x_i)$$
 For a predicted distribution q and one-hot distribution p over n possible next-words (xi). Below (Figure 2) is a toy example (with actual GPT-2 outputs) of a q (blue) distribution and p (red) ‘distribution’ on the water fountain example from earlier, showing the top ten most probable next tokens: 
 
 ![toy example](/figures/toy_ex.png?raw=true "Toy Example")
+
 *Fig. 2: Left: the ten tokens GPT-2 assigns the highest probability to following the input string; Right: the one-hot distribution representing the actual next token*
 
 Given the one-hot nature of the p ‘distribution,’ the above cross-entropy calculation is equivalent to the simpler:
