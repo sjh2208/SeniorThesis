@@ -122,25 +122,25 @@ $$P(F|S, CE) \propto P(S, CE|F) \cdot P(F)$$
 
 I then used these conditional probabilities to predict the category of unseen stories during the testing phase.
 
-#### Results
-##### Cross-Entropy Distribution
+### Results
+#### Cross-Entropy Distribution
 ![violin plot](/figures/fig2.png?raw=true "Distribution of CE by News Story Type and Model")
 ![density plot](/figures/fig2_1.png?raw=true "Distribution of CE by News Story Type")
-##### Sentiment Distribution
+#### Sentiment Distribution
 ![bar plot](/figures/fig4.png?raw=true "Distribution of Sentiment by News Story Type")
 ![density plot](/figures/fig4_1.png?raw=true "Distribution of Continuous Sentiment Score by News Story Type")
-##### Joint Distribution
+#### Joint Distribution
 ![2d plot](/figures/fig6.png?raw=true "2d Distribution of Sentiment and CE by News Story Type")
 
 *Color-filled region represents the distribution of fake news stories, the empty region for true news stories*
 
 ![3d plot](/figures/fig6_1.png?raw=true "3d Distribution of Sentiment and CE by News Story Type")
-##### Prediction/Classification
-#### Discussion, Limitations, and Conclusion
+#### Prediction/Classification
+### Discussion, Limitations, and Conclusion
 
 
 
-References
+### References
 Ahmed, H., Traore, I., & Saad, S. (2018). Detecting opinion spams and fake news using text classification. Security and Privacy, 1(1).
 
 Barbieri, F., Camacho-Collados, J., Neves, L., & Espinosa-Anke, L. (2020). Tweeteval: Unified benchmark and comparative evaluation for tweet classification. Findings of the Association for Computational Linguistics: EMNLP 2020, pp. 1644–1650
